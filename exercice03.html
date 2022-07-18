@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Université</title>
+</head>
+
+<body>
+    <h1>Liste des Universités</h1>
+    <label for="listeUniversite">Choissisez un pays</label></br>
+    </br>
+
+    <select name="pays" id="choix">
+            <option value="france">France</option>
+            <option value="allemagne">Allemagne</option>
+            <option value="andorre">Andorre</option>
+     </select>
+    <button id="valider">Valider</button>
+    <div id="trouve">
+        <h2 style=" color:green">Données Trouvées</h2>
+        <h3 id="nbreUniversite"></h3>
+    </div>
+    <div id="nontrouve">
+        <h2 id="nontrouve" style=" color:red">Données non Trouvées</h2>
+    </div>
+    <div id="saisie">
+        <form>
+            <h4> Nombre d'universités supérieur à 50. Veuillez saisir 3 lettres, début d'une ville pour filtrer</h4>
+            <label for="Ville"> Ville : </label>
+            <input type="text" id="ville" name="filtre">
+        </form>
+    </div>
+    <div id="universite"></div>
+
+
+    <script src="./js/exercice03.js"></script>
+</body>
+
+</html>
