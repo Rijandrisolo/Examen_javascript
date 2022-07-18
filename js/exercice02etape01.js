@@ -58,7 +58,6 @@ buttonCompetence.onclick = function() {
         } else if (document.getElementById("h1Competence") != null) {
             document.getElementById("h1Competence").removeAttribute('hidden');
             document.getElementById("pCompetence").removeAttribute('hidden');
-            console.log("ok competence");
 
         }
 
@@ -83,7 +82,6 @@ buttonExperience.onclick = function() {
             const h1Experience = elementDom("h1", "Experience", vMain, [{ name: "id", value: "h1Experience" }]);
             const pExperience = elementDom("p", `Experience ${contenuParagraphe}`, vMain, [{ name: "id", value: "pExperience" }]);
         } else if (document.getElementById("h1Experience") != null) {
-
             document.getElementById("h1Experience").removeAttribute('hidden');
             document.getElementById("pExperience").removeAttribute('hidden');
         }
